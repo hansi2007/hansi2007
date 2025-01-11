@@ -1,0 +1,504 @@
+class Solution {
+public:
+    int countPalindromicSubsequence(string s) {
+        
+        vector<pair<int, int> > v(26, {-1, -1} ); //to store first occurance  and last occurance of every alphabet.
+        
+        int n = s.length(); //size of the string
+        
+        for (int i = 0 ; i< n ;i++ ){
+            if (v[s[i] - 'a'].first == -1 ) v[s[i] - 'a'].first = i; // storing when alphabet appered first time.
+            else v[s[i] - 'a'].second = i; // else whenever it appears again. So that the last occurrence will be stored at last.
+        }
+        
+        int ans = 0 ;
+        for (int i = 0 ; i <26 ;i++ ){ //traversing over all alphabets.
+
+            if (v[i].second != -1 ){ //only if alphabet occured second time.
+                
+                unordered_set<char> st; //using set to keep only unique elements between the range.
+                
+                for (int x = v[i].first + 1 ; x < v[i].second ; x++ ) st.insert(s[x]); // set keeps only unique elemets.
+                    
+                ans += ((int)st.size()); // adding number of unique elements to the answer.
+            }
+        }
+        return ans;
+        
+    }
+};
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     struct ListNode *next;
+ * };
+ */
+struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
+    struct ListNode* listHead = (struct ListNode*)malloc(sizeof(struct ListNode));
+    struct ListNode* listTail = listHead;
+    listTail->val = 0;
+
+    
+    while (true) {
+        int val = (l1 ? l1->val: 0) + (l2 ? l2->val: 0) + listTail->val;
+
+        listTail->val = val % 10;
+        
+        l1 = l1 ? l1->next : NULL;
+        l2 = l2 ? l2->next : NULL;
+        
+        if (l1 || l2 || val/10) {
+            listTail->next = (struct ListNode*)malloc(sizeof(struct ListNode));
+            listTail->next->val = val/10;
+            listTail = listTail->next;
+            
+        }
+        else {
+            listTail->next = NULL;
+            return listHead;
+        }
+    }
+}
+int lengthOfLongestSubstring(char* s) {
+    if (!s || !*s) // Check if the string is empty
+        return 0;
+    
+    int charIndexMap[256]; // Assuming ASCII characters
+    memset(charIndexMap, -1, sizeof(charIndexMap)); // Initialize array with -1
+    
+    int maxLength = 0;
+    int startIndex = 0;
+    int i;
+    
+    for (i = 0; s[i] != '\0'; i++) {
+        // If the character is already in the map and its index is after the start index of the current substring,
+        // update the start index to the index after the last occurrence of the character
+        if (charIndexMap[s[i]] != -1 && charIndexMap[s[i]] >= startIndex) {
+            startIndex = charIndexMap[s[i]] + 1;
+        }
+        
+        // Update the index of the current character
+        charIndexMap[s[i]] = i;
+        
+        // Update the maximum length if the current substring is longer
+        if (i - startIndex + 1 > maxLength) {
+            maxLength = i - startIndex + 1;
+        }
+    }
+    
+    return maxLength;
+}
+double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size) {
+    double s;
+    int b;
+    int t[nums1Size+nums2Size];
+int i=0; int j=0; int k=0;
+// Merging two sorted arrays
+    while((i<nums1Size)&&(j<nums2Size))
+    {   if(nums1[i]<nums2[j])
+     {  t[k]=nums1[i];
+        i++;
+        k++;
+     }
+      else
+     {  t[k]=nums2[j];
+        j++;
+        k++;
+    }
+    }
+// If there are remaining elements in nums1
+    if(i== nums1Size)
+    {
+        while(j<nums2Size)
+        {   t[k]=nums2[j];
+            j++;
+            k++;
+        }
+    }
+// If there are remaining elements in nums2
+    if(j== nums2Size)
+    {
+        while(i<nums1Size)
+        {   t[k]=nums1[i];
+            i++;
+            k++;
+        }
+    }
+// Calculate the median
+    if((nums1Size+nums2Size)%2!=0)
+    {   // Odd length, return the middle element
+        b=t[(nums1Size+nums2Size)/2];
+        s=(double)b;
+        return(s);
+    }
+    else 
+    {   // Even length, return the average of the two middle elements
+        s=((double)((t[(nums1Size+nums2Size)/2])+(t[((nums1Size+nums2Size)/2)-1])))/2;
+        return(s);
+    }
+}
+char* longestPalindrome(char* s) {
+    char *start, *end;
+    char *p = s, *subStart = s;
+    int maxLen = 1;
+    while(*p){
+        start = p; end = p;
+        
+        while(*(end+1) && *(end+1) == *end){
+            end++; // skip duplicates
+        }
+        p = end + 1;
+        
+        while(*(end + 1) && (start > s) && *(end + 1) == *(start - 1)){
+            start--;
+            end++;
+        }
+        if(end - start + 1 > maxLen){
+            maxLen = end - start + 1;
+            subStart = start;
+        }
+    }
+    
+    char *rst = (char *) calloc(maxLen + 1, sizeof(char));
+    strncpy(rst, subStart, maxLen);
+    return rst;
+}
+int str_len(char* s)
+{
+    int len = 0;
+    while(s[len] != 0)
+    {
+        len++;
+    }
+
+    return len;
+}
+
+char * convert(char * s, int numRows){
+    int len = str_len(s);
+    char* res = (char*)malloc(len * sizeof(char) + 1);
+
+    int a = 0;
+    int b = numRows * 2 - 2 > 0 ? numRows * 2 - 2: 1;
+    int count = 0;
+
+    for(int i = 0; i < numRows; i++)
+    {
+        int j = i;
+        
+        int change = 0;
+        while(j < len)
+        {
+            res[count++] = s[j];
+            
+            if(change && a != 0 || !b)
+            {
+                j += a;
+                change = 0;
+            }
+            else
+            {
+                j += b;
+                change = 1;
+            }
+        }
+
+        a+=2;
+        b-=2;
+    }
+    res[count] = 0;
+    
+    return res;
+}
+int reverse(int x)
+{
+    long long sum=0;
+    long long num=0;
+    num=x;
+    while(num!=0)
+    {
+        sum=sum*10+(num%10);
+        num=num/10;
+    }
+
+    if (sum < -2147483648 || sum > 2147483647)
+    {
+        return 0;
+    }
+    return sum;
+
+}
+int myAtoi(char* s) {
+    
+    int count=0,i=0,count1=0,arr[1000];
+    while(s[i]==' '){
+        i++;
+    }
+    int si=1;
+    if (s[i] == '-' || s[i] == '+') {
+        if (s[i + 1] == '-' || s[i + 1] == '+') { // Check for multiple consecutive signs
+            return 0;
+        }
+        si = (s[i] == '-') ? -1 : 1;
+        i++;
+    }
+    long long int num =0;   
+    
+    while(s[i]>='0'&& s[i]<='9') {
+        num = num * 10 + (s[i] - '0');//Chat gpt 
+
+        if (num > INT_MAX && si == 1) {
+            return INT_MAX;
+        } else if (num > (long long)INT_MAX + 1 && si == -1) {
+            return INT_MIN;
+        }
+
+        i++;
+    }
+return num*si;
+}
+bool isPalindrome(int x) {
+
+     double rev=0, rem, orignal=x;
+    
+    
+        while(x>0)
+        {
+            rem = x % 10;
+            rev = rev * 10 + rem;
+            x/=10;
+        }
+
+        if(rev == orignal)
+            return true;
+        
+         else
+       return false;
+    
+}
+bool match(char* s, char* p) {
+    return (s[0] == p[0]) || (p[0] == '.' && s[0]);
+}
+
+bool isMatch(char * s, char * p){
+    if (!p[0]) return !s[0];
+    if (p[1] == '*') return isMatch(s, p+2) || match(s, p) && isMatch(s+1, p);
+    if (p[0] == '.') return s[0] && isMatch(s+1, p+1);
+    return match(s, p) && isMatch(s+1, p+1);
+}
+int maxArea(int* height, int heightSize) {
+    int max_area = INT_MIN, i = 0, j = heightSize - 1;
+    while(i < j) {
+        if(height[i] > height[j]) {
+            if(max_area < height[j] * (j - i))
+                max_area = height[j] * (j - i);
+            j--;
+        }
+        else {
+            if(max_area < height[i] * (j - i))
+                max_area = height[i] * (j - i);
+            i++;
+        }
+    }
+    return max_area;
+}
+char* intToRoman(int num) {
+    // Allocate enough memory for the result string
+    // Max length of Roman numeral for numbers up to 3999 is 15 (e.g., "MMMCMXCIX")
+    char* s = (char*)malloc(20 * sizeof(char)); 
+    int i = 0;
+    
+    // Handle the largest values first (greedy approach)
+    while (num >= 1000) {
+        s[i++] = 'M';
+        num -= 1000;
+    }
+    
+    // Check for 900 (CM)
+    if (num >= 900) {
+        s[i++] = 'C';
+        s[i++] = 'M';
+        num -= 900;
+    }
+    
+    // Handle 500 (D)
+    while (num >= 500) {
+        s[i++] = 'D';
+        num -= 500;
+    }
+    
+    // Check for 400 (CD)
+    if (num >= 400) {
+        s[i++] = 'C';
+        s[i++] = 'D';
+        num -= 400;
+    }
+    
+    // Handle 100 (C)
+    while (num >= 100) {
+        s[i++] = 'C';
+        num -= 100;
+    }
+    
+    // Check for 90 (XC)
+    if (num >= 90) {
+        s[i++] = 'X';
+        s[i++] = 'C';
+        num -= 90;
+    }
+    
+    // Handle 50 (L)
+    while (num >= 50) {
+        s[i++] = 'L';
+        num -= 50;
+    }
+    
+    // Check for 40 (XL)
+    if (num >= 40) {
+        s[i++] = 'X';
+        s[i++] = 'L';
+        num -= 40;
+    }
+    
+    // Handle 10 (X)
+    while (num >= 10) {
+        s[i++] = 'X';
+        num -= 10;
+    }
+    
+    // Check for 9 (IX)
+    if (num >= 9) {
+        s[i++] = 'I';
+        s[i++] = 'X';
+        num -= 9;
+    }
+    
+    // Handle 5 (V)
+    while (num >= 5) {
+        s[i++] = 'V';
+        num -= 5;
+    }
+    
+    // Check for 4 (IV)
+    if (num >= 4) {
+        s[i++] = 'I';
+        s[i++] = 'V';
+        num -= 4;
+    }
+    
+    // Handle 1 (I)
+    while (num >= 1) {
+        s[i++] = 'I';
+        num -= 1;
+    }
+    
+    // Null-terminate the string
+    s[i] = '\0';
+    
+    // Return the constructed Roman numeral string
+    return s;
+}
+int getValue(char roman){
+    switch(roman){
+        case 'I': return 1;
+        case 'V': return 5;
+        case 'X': return 10;
+        case 'L': return 50;
+        case 'C': return 100;
+        case 'D': return 500;
+        case 'M': return 1000;
+        default : return 0; 
+    }
+}
+int romanToInt(char* s) {
+    int total =0;
+    int prevValue = 0;
+    for(int i = strlen(s)-1; i>=0; i--){
+        int currentvalue = getValue(s[i]);
+
+        if(currentvalue < prevValue){
+            total -= currentvalue;
+        }
+        else{
+            total += currentvalue;
+        }
+        prevValue = currentvalue;
+    }
+    return total;
+}
+
+
+char * longestCommonPrefix(char ** str, int size){
+
+    int i,j,flag=0,k=0,min=100000;
+    char *s = (char *)malloc(127*sizeof(char));
+    strcpy(s,"");
+    if(size==0)
+        return s;
+    char c;
+    for(i=0;i<size;i++)
+    {
+        if(min>strlen(str[i]))
+            min = strlen(str[i]);
+    }
+    for(i=0;i<min;i++,k++)
+    {
+        c = str[0][i];
+        for(j=0;j<size;j++)
+        {
+            if(str[j][i]!=c)
+            {
+                flag = 1;
+                break;
+            }
+        }
+    //    printf("%d ",flag);
+    //    printf("%d ",strlen(str[i]));
+        if(flag)
+            break;
+        else
+        {
+            s[k] = c;
+            s[k+1] = '\0';
+        }
+    }
+ //   printf("%s",s);
+    return s;
+}
+#include <stdlib.h>
+
+int cmp(const void *a,const void *b) {
+    return *((int*) a) - *((int*) b);
+}
+
+int** threeSum(int* nums, int numsSize, int* returnSize, int** returnColumnSizes){
+    qsort(nums, numsSize, sizeof(int), cmp);
+    (*returnSize) = 0;
+    (*returnColumnSizes) = (int*) malloc(sizeof(int) * numsSize * numsSize);
+    int **ret = (int**) malloc(sizeof(int*) * numsSize * numsSize);
+    for (int i = 0; i < numsSize - 2; i++) {
+        if (i == 0 || nums[i] != nums[i-1]) {
+            int l = i + 1;
+            int r = numsSize - 1;
+            while (l < r) {
+                if (nums[i] + nums[l] + nums[r] < 0) {
+                    l++;
+                } else if (nums[i] + nums[l] + nums[r] > 0) {
+                    r--;
+                } else {
+                    ret[(*returnSize)] = (int*) malloc(sizeof(int) * 3);
+                    (*returnColumnSizes)[(*returnSize)] = 3;
+                    ret[(*returnSize)][0] = nums[i];
+                    ret[(*returnSize)][1] = nums[l];
+                    ret[(*returnSize)][2] = nums[r];
+                    (*returnSize)++;
+                    l++;
+                    while (l < r && nums[l] == nums[l-1])
+                        l++;
+                }
+            }
+        }
+    }
+    return ret;
+}
