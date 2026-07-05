@@ -260,7 +260,7 @@ Gained experience in:
 
 # 🌐 Connect With Me
 
-I’m interested in collaborating on innovative projects, AI solutions, research ideas, and open-source contributions.
+I’m interested in collaborating on innovative projects, AI solutions, research ideas.
 
 📧 Email: www.hansika2007@gmail.com
 
