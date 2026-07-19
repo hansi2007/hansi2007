@@ -6,7 +6,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0F2027,50:1B4332,100:1E3A8A&text=Hansika%20M&fontColor=ffffff&fontSize=48&animation=fadeIn&fontAlignY=38"/>
 
-<h1>Hansika M</h1>
+
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=23&duration=3200&pause=900&color=2ECC71&center=true&vCenter=true&width=850&lines=Computer+Science+(Data+Science)+Student;Research-Oriented+Developer;Machine+Learning+Enthusiast;Open+Source+Contributor;Building+Intelligent+Systems)](https://git.io/typing-svg)
 
