@@ -465,15 +465,7 @@ Every repository will include:
 
 ---
 
-# GitHub Analytics
 
-<p align="center">
-
-<img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api?username=hansi2007&show_icons=true&theme=github_dark&hide_border=true"/>
-
-<img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=hansi2007&layout=compact&theme=github_dark&hide_border=true"/>
-
-</p>
 
 ---
 
@@ -487,13 +479,6 @@ Every repository will include:
 
 ---
 
-# GitHub Trophies
-
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=hansi2007&theme=algolia&no-frame=true&margin-w=15"/>
-
-</p>
 
 ---
 
