@@ -1,338 +1,530 @@
+<!-- ========================================================= -->
+<!--                  GITHUB PROFILE README                    -->
+<!-- ========================================================= -->
+
 <div align="center">
 
-<img width="100%" src="https://capsule-render.com/api?type=waving&color=0:0F0A1E,50:4C1D95,100:6D28D9&height=220&section=header&text=Hansika%20M&fontSize=55&fontColor=EDE9FE&animation=fadeIn&fontAlignY=38&desc=Computer%20Science%20(Data%20Science)%20Student&descAlignY=58&descSize=18&descColor=C4B5FD" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0F2027,50:1B4332,100:1E3A8A&text=Hansika%20M&fontColor=ffffff&fontSize=48&animation=fadeIn&fontAlignY=38"/>
 
-<br/>
+<h1>Hansika M</h1>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=650&lines=Research-Oriented+Developer;Machine+Learning+Enthusiast;Open+Source+Contributor;Building+Intelligent+Systems" alt="Typing SVG" />
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=23&duration=3200&pause=900&color=2ECC71&center=true&vCenter=true&width=850&lines=Computer+Science+(Data+Science)+Student;Research-Oriented+Developer;Machine+Learning+Enthusiast;Open+Source+Contributor;Building+Intelligent+Systems)](https://git.io/typing-svg)
+
+<p>
+Building software and intelligent systems through continuous learning, research, open source, and real-world engineering.
+</p>
+
+</div>
+
+---
+
+# Connect
+
+<p align="center">
+
+<a href="https://github.com/hansi2007">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
-<br/><br/>
-
-<img src="https://img.shields.io/badge/B.E.-Computer%20Science%20(Data%20Science)-2E1065?style=for-the-badge&labelColor=0F0A1E&color=6D28D9" />
-<img src="https://img.shields.io/badge/Location-India-2E1065?style=for-the-badge&labelColor=0F0A1E&color=6D28D9" />
-
-<br/><br/>
-
-<a href="https://github.com/YOUR_GITHUB_USERNAME">
-  <img src="https://img.shields.io/badge/GitHub-0F0A1E?style=for-the-badge&logo=github&logoColor=A78BFA" />
-</a>
-<a href="https://linkedin.com/in/YOUR_LINKEDIN_ID">
-  <img src="https://img.shields.io/badge/LinkedIn-0F0A1E?style=for-the-badge&logo=linkedin&logoColor=818CF8" />
-</a>
-<a href="mailto:YOUR_EMAIL@example.com">
-  <img src="https://img.shields.io/badge/Email-0F0A1E?style=for-the-badge&logo=gmail&logoColor=EDE9FE" />
-</a>
-<a href="https://www.hackerrank.com/YOUR_HACKERRANK_ID">
-  <img src="https://img.shields.io/badge/HackerRank-0F0A1E?style=for-the-badge&logo=hackerrank&logoColor=A78BFA" />
+<a href="https://www.linkedin.com/in/hansika-m-090b67331">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile%20Views&color=4C1D95&style=flat-square" />
-<img src="https://img.shields.io/github/followers/YOUR_GITHUB_USERNAME?label=Followers&style=flat-square&color=4C1D95&labelColor=0F0A1E" />
-<img src="https://img.shields.io/badge/dynamic/json?color=4C1D95&labelColor=0F0A1E&label=Repositories&query=public_repos&url=https://api.github.com/users/YOUR_GITHUB_USERNAME&style=flat-square" />
-<img src="https://img.shields.io/github/stars/YOUR_GITHUB_USERNAME?label=Stars&style=flat-square&color=4C1D95&labelColor=0F0A1E" />
-
-</div>
-
----
-
-## About
-
-I'm a Computer Science Engineering student specializing in Data Science, building my path toward Artificial Intelligence, Machine Learning, and Intelligent Systems through consistent, hands-on engineering work. My focus sits at the intersection of software development and applied research — from IoT-based environmental monitoring to autonomous systems — with an emphasis on solving real problems rather than just studying theory.
-
-I'm currently developing projects around **smart hydroponics**, **autonomous drone navigation**, and **environmental sensor networks**, while strengthening my core in **Python, SQL, and Power BI**. My research work has progressed from a conference paper acceptance to an active second-review submission, and I'm growing as an **Open Source** contributor, learning collaborative development and Git workflows along the way.
-
-**Open To**
-`Software Engineering Internships` · `Research Collaborations` · `Open Source Projects` · `AI/ML Learning Opportunities`
-
----
-
-## Tech Stack
-
-**Languages & Data**
-
-<img src="https://skillicons.dev/icons?i=python,mysql&theme=dark" />
-
-**Data Analytics & ML**
-
-![Pandas](https://img.shields.io/badge/Pandas-0F0A1E?style=for-the-badge&logo=pandas&logoColor=A78BFA)
-![NumPy](https://img.shields.io/badge/NumPy-0F0A1E?style=for-the-badge&logo=numpy&logoColor=818CF8)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0F0A1E?style=for-the-badge&logo=scikitlearn&logoColor=A78BFA)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-0F0A1E?style=for-the-badge&logo=plotly&logoColor=818CF8)
-![Power BI](https://img.shields.io/badge/Power%20BI-0F0A1E?style=for-the-badge&logo=powerbi&logoColor=EDE9FE)
-
-**Tooling & Platforms**
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark" />
-![Colab](https://img.shields.io/badge/Google%20Colab-0F0A1E?style=for-the-badge&logo=googlecolab&logoColor=A78BFA)
-![Jupyter](https://img.shields.io/badge/Jupyter-0F0A1E?style=for-the-badge&logo=jupyter&logoColor=EDE9FE)
-
----
-
-## AI / ML Focus
-
-<div align="center">
-
-| Domain | Proficiency | Details |
-|---|---|---|
-| Machine Learning | Building | Classification models, text preprocessing, TF-IDF, model evaluation |
-| Data Science | Developing | Data cleaning, exploratory analysis, Power BI dashboards |
-| Intelligent Systems | Exploring | Sensor-driven automation, real-time decision logic |
-| IoT & Embedded Systems | Building | Environmental sensors, Arduino integration, automation |
-| Research | Developing | Conference paper (accepted), conference submission (second review) |
-
-</div>
-
----
-
-## Featured Projects
-
-<details open>
-<summary><b>Smart Hydroponics Monitoring System</b> — 🟣 Currently Developing</summary>
-<br/>
-
-Building an IoT-based smart hydroponics monitoring system focused on precision agriculture, using environmental sensors, nutrient management, and intelligent automation.
-
-| Stack | Scope | Status | Repository |
-|---|---|---|---|
-| Python, Arduino | Sensors · Automation · Smart Agriculture | Active Development | [View Repo](https://github.com/YOUR_GITHUB_USERNAME/smart-hydroponics) |
-
-Core sensor integration and monitoring logic are under active development, with future work planned on automated nutrient dosing and remote dashboard access.
-
-</details>
-
-<br/>
-
-<details>
-<summary><b>Autonomous Drone Navigation System</b> — 🟣 Currently Developing</summary>
-<br/>
-
-Developing an autonomous drone navigation system exploring intelligent flight control, autonomous navigation, sensor integration, and real-time decision making.
-
-| Stack | Scope | Status | Repository |
-|---|---|---|---|
-| Python | Autonomous Navigation · Sensor Integration | Active Development | [View Repo](https://github.com/YOUR_GITHUB_USERNAME/autonomous-drone-navigation) |
-
-Navigation logic and sensor-based decision flow are in progress, with real-time obstacle avoidance planned next.
-
-</details>
-
-<br/>
-
-<details>
-<summary><b>Microplastic Detection using UV Fluorescence & Amplified LDR Sensor Network</b> — 🟣 Conference Submission (Second Review)</summary>
-<br/>
-
-An IoT-based environmental monitoring system for detecting microplastics in water using UV fluorescence and an amplified LDR sensor network.
-
-| Focus | Status |
-|---|---|
-| Environmental Monitoring, IoT, Sensor Networks | Second Review — Conference Submission |
-
-</details>
-
-<br/>
-
-<details>
-<summary><b>OGDI Light Camera</b> — 🟢 Conference Paper Accepted</summary>
-<br/>
-
-Research project on the OGDI Light Camera, with the conference paper accepted for presentation.
-
-</details>
-
-<br/>
-
-<details>
-<summary><b>Smart Agent Load Balancing System</b> — 🟢 Completed</summary>
-<br/>
-
-Designed and developed a system that efficiently distributes incoming requests across multiple AI agents, improving performance, scalability, and reliability through intelligent request routing.
-
-| Stack | Scope | Impact | Repository |
-|---|---|---|---|
-| Python, Flask, Streamlit, Git | Load Balancing · Distributed Systems · System Design | Improved routing reliability via health monitoring and failover handling | [View Repo](https://github.com/YOUR_GITHUB_USERNAME/smart-agent-load-balancer) |
-
-**Core Features:** Intelligent Request Routing · Round Robin Scheduling · Least Connections Routing · Random Routing Strategy · Agent Health Monitoring · Failover Handling · Scalable Backend Architecture
-
-**Future Scope:** ML-based load prediction, real-time monitoring dashboard, auto scaling, cloud deployment.
-
-</details>
-
-<br/>
-
-<details>
-<summary><b>SMS Spam Detection</b> — Machine Learning / NLP</summary>
-<br/>
-
-Machine Learning project using Natural Language Processing to classify SMS messages as spam or legitimate.
-
-| Stack | Techniques | Repository |
-|---|---|---|
-| Python, Scikit-Learn | Data Cleaning · Text Preprocessing · TF-IDF · Classification · Model Evaluation | [View Repo](https://github.com/YOUR_GITHUB_USERNAME/sms-spam-detection) |
-
-</details>
-
-<br/>
-
-<details>
-<summary><b>Diabetes AI Chatbot</b> — Healthcare / SIH</summary>
-<br/>
-
-Healthcare chatbot developed using diabetes datasets, built as part of Smart India Hackathon (SIH).
-
-</details>
-
----
-
-## Research Journey
-
-<div align="center">
-
-| Project | Status |
-|---|---|
-| OGDI Light Camera | 🟢 Conference Paper Accepted |
-| Microplastic Detection using UV Fluorescence & Amplified LDR Sensor Network | 🟣 Conference Submission — Second Review |
-
-</div>
-
-**Future Research Interests:** `Artificial Intelligence` `IoT` `Intelligent Systems` `Autonomous Systems` `Smart Agriculture` `Environmental Monitoring`
-
----
-
-## Open Source
-
-Started contributing to Open Source, learning how collaborative software development works in practice — reading real codebases, understanding Git workflows, and making meaningful documentation improvements.
-
-- Documentation Improvements
-- Cesium Contribution
-- Learning Git & Collaborative Workflows
-
----
-
-## Achievements
-
-<div align="center">
-
-| Recognition | Details |
-|---|---|
-| 🏆 RoboSoccer Winner | Competitive robotics event |
-| 📄 Conference Paper Accepted | OGDI Light Camera |
-| 🧪 Research Submission | Microplastic Detection — Second Review |
-| 🌍 Open Source Journey | Started contributing to collaborative projects |
-
-</div>
-
----
-
-## Certifications
-
-**NPTEL**
-
-![NPTEL](https://img.shields.io/badge/NPTEL-0F0A1E?style=for-the-badge&logo=readthedocs&logoColor=A78BFA)
-
-**Infosys Springboard**
-
-![Infosys Springboard](https://img.shields.io/badge/Infosys%20Springboard-0F0A1E?style=for-the-badge&logo=infosys&logoColor=818CF8)
-
----
-
-## Coding Profile
-
-<div align="center">
-
-<a href="https://www.hackerrank.com/YOUR_HACKERRANK_ID">
-  <img src="https://img.shields.io/badge/HackerRank-0F0A1E?style=for-the-badge&logo=hackerrank&logoColor=A78BFA" />
+<a href="mailto:www.hansika2007@gmail.com">
+<img src="https://img.shields.io/badge/Email-0A66C2?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
-</div>
+<a href="https://www.hackerrank.com/profile/www_hansika2007">
+<img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/>
+</a>
+
+</p>
+
+<p align="center">
+
+![](https://komarev.com/ghpvc/?username=hansi2007&style=for-the-badge&color=0e9f6e)
+
+![](https://img.shields.io/github/followers/hansi2007?style=for-the-badge)
+
+![](https://img.shields.io/github/stars/hansi2007?style=for-the-badge)
+
+
+</p>
 
 ---
 
-## GitHub Analytics
+# About Me
 
-<div align="center">
+I am a Computer Science Engineering student specializing in **Data Science**, passionate about applying software engineering, artificial intelligence, and research to solve practical engineering challenges. My learning journey is centered around building systems that combine data, automation, and intelligent decision-making to create meaningful real-world impact.
 
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical&hide_border=true&bg_color=0F0A1E&title_color=A78BFA&icon_color=818CF8&text_color=EDE9FE" width="49%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical&hide_border=true&bg_color=0F0A1E&title_color=A78BFA&text_color=EDE9FE" width="35%" />
+Currently, I am strengthening my skills in **Python**, **SQL**, **Machine Learning**, and **Power BI**, while exploring how intelligent systems can be integrated with IoT, environmental monitoring, and automation. I enjoy understanding how software interacts with hardware and sensors, especially in domains such as smart agriculture, drone technology, and autonomous systems.
 
-<br/>
+Alongside academics, I have begun contributing to **Open Source**, learning collaborative development practices through documentation improvements and Git workflows. Research is another important part of my journey, where I continue developing projects focused on environmental monitoring and intelligent sensing technologies.
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=highcontrast&hide_border=true&background=0F0A1E&ring=6D28D9&fire=A78BFA&currStreakLabel=A78BFA" width="49%"/>
-
-<br/>
-
-<img src="https://github-readme-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=discord&no-frame=true&margin-w=10&column=7" />
-
-</div>
+I believe that good engineering is built through curiosity, consistent learning, clear documentation, thoughtful problem solving, and continuous improvement. My goal is to grow into an engineer who builds reliable, research-driven intelligent systems that positively impact society.
 
 ---
 
-## Contribution Activity
+# Engineering Philosophy
 
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=redical&hide_border=true&bg_color=0F0A1E&color=A78BFA&line=818CF8&point=EDE9FE" width="100%"/>
-</div>
-
-<br/>
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
-</div>
+> **Build before claiming.**  
+> **Learn continuously.**  
+> **Write understandable code.**  
+> **Document everything.**  
+> **Solve meaningful problems.**  
+> **Stay curious.**
 
 ---
 
-## Current Focus
+# Current Engineering Focus
 
-```yaml
-learning:
-  - Python
-  - SQL
-  - Power BI
-  - Machine Learning
+| Area | Status |
+|------|--------|
+| Python | ✅ Learning & Building |
+| SQL | ✅ Improving Daily |
+| Power BI | ✅ Exploring Data Analytics |
+| Machine Learning | ✅ Building Projects |
+| Intelligent Systems | ✅ Exploring |
+| Open Source | ✅ Active Learning |
+| Research | ✅ Ongoing |
+| Software Engineering | ✅ Growing |
+| Problem Solving | ✅ Daily Practice |
+| Autonomous Systems | ✅ Exploring |
+| IoT | ✅ Building Projects |
 
-building:
-  - Smart Hydroponics Monitoring System
-  - Autonomous Drone Navigation System
+---
 
-exploring:
-  - Intelligent Systems
-  - IoT & Automation
-  - Environmental Monitoring Research
+# Current Mission
 
-open_to:
-  - Software Engineering Internships
-  - Research Collaborations
-  - Open Source Contributions
+```text
+Building
+      ↓
+Research
+      ↓
+Machine Learning
+      ↓
+Open Source
+      ↓
+Software Engineering
+      ↓
+Intelligent Systems
 ```
 
 ---
 
-## Connect
+# Tech Stack
 
-<div align="center">
+## Programming
 
-<a href="mailto:YOUR_EMAIL@example.com">
-  <img src="https://img.shields.io/badge/Gmail-0F0A1E?style=for-the-badge&logo=gmail&logoColor=EDE9FE" />
-</a>
-<a href="https://linkedin.com/in/YOUR_LINKEDIN_ID">
-  <img src="https://img.shields.io/badge/LinkedIn-0F0A1E?style=for-the-badge&logo=linkedin&logoColor=818CF8" />
-</a>
-<a href="https://github.com/YOUR_GITHUB_USERNAME">
-  <img src="https://img.shields.io/badge/GitHub-0F0A1E?style=for-the-badge&logo=github&logoColor=A78BFA" />
+<p>
+
+<img src="https://skillicons.dev/icons?i=python,mysql,git,github,vscode"/>
+
+</p>
+
+## Data Science
+
+<p>
+
+<img src="https://go-skill-icons.vercel.app/api/icons?i=pandas,numpy,sklearn,matplotlib"/>
+
+</p>
+
+## Tools
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode"/>
+
+<img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Jupyter-FA0F00?style=for-the-badge&logo=jupyter&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+
+</p>
+
+---
+
+# Engineering Journey
+
+```text
+Started Learning Machine Learning
+               │
+               ▼
+Started Building AI Projects
+               │
+               ▼
+Conference Paper Accepted
+               │
+               ▼
+Conference Research Submission
+               │
+               ▼
+Started Open Source Journey
+               │
+               ▼
+Working on Autonomous Drone Navigation
+               │
+               ▼
+Building Smart Hydroponics System
+               │
+               ▼
+Growing Engineering Portfolio
+```
+
+---
+
+# Current Projects
+
+<details>
+<summary><b>🌱 Smart Hydroponics Monitoring System</b></summary>
+
+### Status
+
+🟡 Currently Developing
+
+### Overview
+
+Building an IoT-based smart hydroponics monitoring system focused on precision agriculture using environmental sensors, nutrient management, and intelligent automation.
+
+### Tech Stack
+
+- Python
+- Arduino
+- IoT
+- Sensors
+
+### Current Progress
+
+- Environmental monitoring
+- Automation workflow
+- Sensor integration
+
+### Future Scope
+
+- Predictive analytics
+- Mobile dashboard
+- Smart nutrient optimization
+
+**Repository:** Coming Soon
+
+</details>
+
+---
+
+<details>
+<summary><b>🚁 Autonomous Drone Navigation System</b></summary>
+
+### Status
+
+🟡 Currently Developing
+
+### Overview
+
+Developing an autonomous drone navigation system exploring intelligent flight control, autonomous navigation, sensor integration, and real-time decision making.
+
+### Tech Stack
+
+- Python
+- Intelligent Systems
+- Sensors
+- Automation
+
+### Current Progress
+
+- Navigation concepts
+- System planning
+
+### Future Scope
+
+- Autonomous navigation
+- Obstacle avoidance
+- Flight optimization
+
+**Repository:** Coming Soon
+
+</details>
+
+---
+
+<details>
+<summary><b>🧪 Microplastic Detection using UV Fluorescence & Amplified LDR Sensor Network</b></summary>
+
+### Status
+
+🟡 Conference Submission (Second Review)
+
+### Overview
+
+Developing an IoT-based environmental monitoring system for detecting microplastics in water using UV fluorescence and an amplified LDR sensor network.
+
+### Tech Stack
+
+- Arduino
+- UV Sensor
+- LDR
+- Python
+
+### Current Progress
+
+- Sensor integration
+- Experimental validation
+
+### Future Scope
+
+- Improved sensing accuracy
+- Environmental monitoring applications
+
+**Repository:** Coming Soon
+
+</details>
+
+---
+
+<details>
+<summary><b>📷 OAK-D  Light Camera</b></summary>
+
+### Status
+
+✅ Conference Paper Accepted
+
+### Overview
+
+Conference paper accepted based on the OAK-D  Light Camera project.
+
+**Repository:** Coming Soon
+
+</details>
+
+---
+
+<details>
+<summary><b>⚙ AI Agent Load Balancing</b></summary>
+
+### Overview
+
+Backend-oriented intelligent request routing system.
+
+### Features
+
+- Round Robin
+- Least Connection
+- Health Monitoring
+- Routing Logic
+- System Design
+
+**Repository:** Coming Soon
+
+</details>
+
+---
+
+<details>
+<summary><b>📩 SMS Spam Detection</b></summary>
+
+### Overview
+
+Machine Learning project using Natural Language Processing.
+
+### Features
+
+- Data Cleaning
+- TF-IDF
+- Classification
+- Model Evaluation
+- Python
+- Scikit-Learn
+
+**Repository:** Coming Soon
+
+</details>
+
+---
+
+<details>
+<summary><b>🩺 Diabetes AI Chatbot (SIH)</b></summary>
+
+### Overview
+
+Healthcare chatbot developed using diabetes datasets as part of a Smart India Hackathon (SIH) project.
+
+### Focus
+
+- AI
+- Healthcare
+- Machine Learning
+- Intelligent Assistance
+
+**Repository:** Coming Soon
+
+</details>
+
+---
+
+# Research Journey
+
+| Research | Status |
+|-----------|--------|
+| OGDI Light Camera | ✅ Conference Paper Accepted |
+| Microplastic Detection using UV Fluorescence & Amplified LDR Sensor Network | 🟡 Conference Submission (Second Review) |
+| Future Research | Artificial Intelligence |
+| Future Research | Intelligent Systems |
+| Future Research | IoT |
+| Future Research | Environmental Monitoring |
+
+---
+
+# Open Source Journey
+
+- 🌍 Started contributing to Open Source.
+- 📖 Learning collaborative software development.
+- 📝 Working on documentation improvements.
+- 🚀 Exploring Git workflows and pull requests.
+- 🌐 Contributing to the Cesium ecosystem through documentation updates.
+- 📚 Building strong engineering habits through collaboration and code reviews.
+
+---
+
+# Achievements
+
+🏆 RoboSoccer Winner
+
+📄 Conference Paper Accepted
+
+🌍 Started Open Source Journey
+
+🧪 Conference Research Submission
+
+---
+
+# Learning Dashboard
+
+| Skill | Progress |
+|------|-----------|
+| Python | ████████░░ 80% |
+| SQL | ███████░░░ 70% |
+| Power BI | ██████░░░░ 60% |
+| Machine Learning | ███████░░░ 70% |
+| Research | ███████░░░ 70% |
+| Open Source | ████░░░░░░ 40% |
+| Software Engineering | ██████░░░░ 60% |
+| IoT | ██████░░░░ 60% |
+
+---
+
+# 2026 Roadmap
+
+- ✅ Strengthen Python
+- ✅ Improve SQL
+- ✅ Master Power BI
+- ✅ Publish Conference Papers
+- ✅ Expand Open Source Contributions
+- ✅ Build Production-Level Projects
+- ✅ Secure Software Engineering Internship
+- ✅ Continue AI & IoT Research
+
+---
+
+# Repository Standards
+
+Every repository will include:
+
+- Overview
+- Problem Statement
+- Architecture
+- Tech Stack
+- Installation Guide
+- Screenshots
+- Results
+- Future Improvements
+- Contributing Guide
+- License
+- Detailed README
+
+---
+
+# Certifications
+
+- NPTEL
+- Infosys Springboard
+
+---
+
+# Coding Profile
+
+<p align="center">
+
+<a href="https://www.hackerrank.com/profile/www_hansika2007">
+
+<img src="https://img.shields.io/badge/HackerRank-Profile-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/>
+
 </a>
 
-</div>
+</p>
+
+---
+
+# GitHub Analytics
+
+<p align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=hansi2007&show_icons=true&theme=github_dark&hide_border=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hansi2007&layout=compact&theme=github_dark&hide_border=true"/>
+
+</p>
+
+---
+
+# GitHub Streak
+
+<p align="center">
+
+<img src="https://streak-stats.demolab.com?user=hansi2007&theme=github-dark-blue&hide_border=true"/>
+
+</p>
+
+---
+
+# GitHub Trophies
+
+<p align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=hansi2007&theme=algolia&no-frame=true&margin-w=15"/>
+
+</p>
+
+---
+
+# Contribution Graph
+
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=hansi2007&theme=github-compact&hide_border=true"/>
+
+</p>
+
+---
+
+# Snake Contribution Animation
+
+<p align="center">
+
+<img src="https://raw.githubusercontent.com/hansi2007/hansi2007/output/github-contribution-grid-snake-dark.svg"/>
+
+</p>
+
+---
+
+
 
 ---
 
 <div align="center">
 
-### "Build before claiming. Learn continuously. Stay curious."
+### *"Great engineering begins with curiosity, grows through consistency, and creates impact through meaningful solutions."*
 
-<img width="100%" src="https://capsule-render.com/api?type=waving&color=0:6D28D9,50:4C1D95,100:0F0A1E&height=120&section=footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:1B4332,100:1E3A8A"/>
 
 </div>
