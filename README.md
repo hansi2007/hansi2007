@@ -465,17 +465,6 @@ Every repository will include:
 
 ---
 
-
-
----
-
-
-
----
-
-
----
-
 # Contribution Graph
 
 <p align="center">
@@ -496,9 +485,6 @@ Every repository will include:
 
 ---
 
-
-
----
 
 <div align="center">
 
