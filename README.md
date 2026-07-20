@@ -469,13 +469,7 @@ Every repository will include:
 
 ---
 
-# GitHub Streak
 
-<p align="center">
-
-<img src="https://streak-stats.demolab.com?user=hansi2007&theme=github-dark-blue&hide_border=true"/>
-
-</p>
 
 ---
 
