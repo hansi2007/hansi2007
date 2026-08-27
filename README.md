@@ -478,9 +478,7 @@ Every repository will include:
 # Snake Contribution Animation
 
 <p align="center">
-
-<img src="https://raw.githubusercontent.com/hansi2007/hansi2007/output/github-contribution-grid-snake-dark.svg"/>
-
+  <img src="https://raw.githubusercontent.com/hansi2007/hansi2007/output/github-contribution-grid-snake.svg"/>
 </p>
 
 ---
